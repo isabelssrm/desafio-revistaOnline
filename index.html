@@ -4,21 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Revista Online</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="contenedor">
-        <div class="menu">
-            <div class="logo">Diario</div>
-            <div class="nav">
-                <ul>
-                    <li><a href="">Nosotros</a></li>
-                    <li><a href="">Contacto</a></li>
-                    <li><input class="input-menu" type="text" name="buscar" placeholder="buscar..." /></li>
-                </ul>
-            </div>
+    <nav class="navigation row">
+        <div class="navigation__logo">
+            <div class="navigation__diario">DIARIO</div>
         </div>
+        
+            <div class="navigation__container">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#">NOSOTROS</a></li>
+                    <li class="navigation__item"><a href="#">CONTACTO</a></li>
+                    <li><input class="input-menu" type="text" name="buscar" placeholder="buscar..." /></li>
+                </ul>   
+            </div>
+    </nav>
+
+    
         <div class="contenido">
             <div class="listad-noticias">
                 <div class="noticia">
