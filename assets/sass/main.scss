@@ -4,10 +4,12 @@
 
 //base
 @import 'base/reset';
+@import 'base/base';
 
 // layout
 @import 'layout/navbar';
-@import 'layout/grid';
+//@import 'layout/grid';
+
 // components
 @import 'components/inputs';
 
