@@ -1,0 +1,69 @@
+.content {
+    margin: 0 auto;
+}
+
+.post {
+    margin: 0.3125rem;
+    cursor: pointer;
+
+    &__image {
+        height: 150px;
+        width: 100%;;
+        @include respond-to('sm') {
+            height: 300px;
+        }
+    }
+
+    &__description {
+        padding: 0.3125rem 0.625rem;
+    }
+}
+
+.side-info {
+    display:none;
+    @include respond-to('sm') {
+        display: block;
+    }
+    &__tags,
+    &__about {
+        border-bottom: 1px solid gray;
+    }
+
+    &__list {
+        padding: 0;
+    }
+
+    &__list-last-post {
+        margin-bottom: 3.125rem;
+    }
+}
+
+
+.newsletter {
+    width: 100%;
+    background-color: #f2f4f5;
+    clear: both;
+    text-align: center;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+
+    &__title {
+        font-size: 1.5rem
+    }
+
+    &__group {
+
+        &__input,
+        &__button {
+            display: inline-block;
+            border-width: 0;
+            font-size: 0.8125rem;
+            padding: 0.3125rem 0.625rem;
+        }
+
+        &__button {
+            background-color: $color_coral;
+            color: white;
+        }
+    }
+}
